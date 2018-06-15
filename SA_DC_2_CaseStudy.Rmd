@@ -3,3 +3,14 @@ title: "SA_DC_2_CaseStudy"
 author: "Ketan Bhadoriya"
 output: html_document
 ---
+
+###Loading the required packages and the data
+
+```{r,warning=FALSE,message=FALSE}
+library(ggplot2)
+library(tidytext)
+library(dplyr)
+library(tidyr)
+
+load(file="shakespeare.rda")
+```
